@@ -5,7 +5,7 @@
 
 ## Domain Proyek
 
-![Red Wine](https://storage.googleapis.com/kaggle-datasets-images/4458/6836/30587db9a40233164f65a4a3f148f40d/dataset-cover.jpg?t=2017-11-12-14-28-34)
+![Red Wine](docs/dataset-cover.jpg)
 *Source: UCI Machine Learning*
 
 Domain yang dipilih dalam proyek ini adalah **Ekonomi dan Bisnis**, dengan judul proyek **Predictive Analytics: Red Wine Quality Classification**.
