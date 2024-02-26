@@ -52,9 +52,11 @@ df.duplicated().sum()
 # Next, we would like to see the distribution of each feature in the dataset. This will be usefull to determine which feature is distributed inbalance.
 
 # %%
-df.hist(bins=10, figsize=(20,15))
-plt.savefig("docs/histogram_all_features.png")
-plt.show()
+for i in df.columns:
+    df[i].hist(bins=10, figsize=(8,6))
+    plt.title(f"Distribution of {i}")
+    plt.savefig(f"docs/distribution_{i}.png")
+    plt.show()
 
 # %% [markdown]
 # From the distribution above, some feature like density and pH seems like have shape of normal distribution. But the other features, like alcohol, residual sugar have right-skewed and feature like chlorides have left-skewed type.  
