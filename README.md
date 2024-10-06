@@ -165,6 +165,12 @@ Adapun proses data preparation yang telah dilakukan yaitu:
 4. Melakukan _split_ untuk data _testing_ (20%) dan data _training_ (80%). Tahapan ini diperlukan untuk menyediakan data latih kepada model dan proporsi data _testing_ sekitar 20% karena total data berjumlah 1268 sehingga diperlukan data _testing_ dengan persentase yang cukup. 
 5. Melakukan normalisasi dan transformasi data training dengan _Standard Scaler_. Transformasi ini bertujuan agar setiap fitur memiliki skala yang sama dan juga penting bagi beberapa model ML seperti _KNN_ dan _SVM_.
 
+Tahapan data _preparation_ hingga _evaluation_ dapat dilihat pada _flowchart_ berikut:
+
+![flowchart](https://raw.githubusercontent.com/putuwaw/wine-quality-prediction/main/docs/flowchart.png)
+
+**Gambar 16. Flowchart Data Preparation, Modeling, dan Evaluation**
+
 ## Modeling
 
 Dalam tahap modeling, terdapat 3 metode model ML yang digunakan, yaitu _K-Nearest Neighbors_ (_KNN_), _Support Vector Machine_ (_SVM_), dan _Random Forest_. Adapun parameter yang digunakan adalah _hyperparameter_ bawaan dari `scikit-learn`.
